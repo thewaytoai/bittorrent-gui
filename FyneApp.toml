@@ -1,0 +1,18 @@
+[Details]
+  Icon = "./icon.png"
+  Name = "bittorrent-gui"
+  ID = "io.bittorrent-gui.www"
+  Version = "0.1.0"
+  Build = 1
+
+[Development]
+  HelperText = "This binary was built with debug symbols"
+
+[Release]
+  HelperText = "This binary was built without debug symbols"
+
+[LinuxAndBSD]
+  GenericName = "bittorrent-gui"
+  Categories = ["Development"]
+  Comment = "An easy-to-use cross-platform bittorrent client GUI written in golang."
+  Keywords = ["bittorrent", "gui"]
